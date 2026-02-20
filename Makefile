@@ -7,8 +7,8 @@
 #
 ################################################################################
 # \copyright
-# Copyright 2018-2024, Cypress Semiconductor Corporation (an Infineon company)
-# SPDX-License-Identifier: Apache-2.0
+# (c) 2018-2026, Infineon Technologies AG, or an affiliate of Infineon
+# Technologies AG.  SPDX-License-Identifier: Apache-2.0
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -100,9 +100,9 @@ SOURCES=
 # directories (without a leading -I).
 INCLUDES=./configs
 
-APP_VERSION_MAJOR?=0
+APP_VERSION_MAJOR?=2
 APP_VERSION_MINOR?=0
-APP_VERSION_BUILD?=1
+APP_VERSION_BUILD?=0
 
 # Add additional defines to the build process (without a leading -D).
 DEFINES=CY_RETARGET_IO_CONVERT_LF_TO_CRLF CY_RTOS_AWARE
